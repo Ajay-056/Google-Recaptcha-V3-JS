@@ -2,6 +2,9 @@
 
 Google Recaptcha V3 using Vanilla JavaScript
 
+  - Used Axios(A promise based HTTP Client) to send post request to google server
+  - Verified user based on scores sent back as response from the google server
+
 MIT License
 
 Copyright (c) 2021 Ajay Krishna R
