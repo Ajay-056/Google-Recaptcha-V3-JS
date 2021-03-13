@@ -36,8 +36,6 @@ async function getResponseFromServer(Token) {
 
   const alldata = await axios.post(URL);
 
-  console.log(alldata.data.score);
-
   validateScoreAndCredentials(alldata.data.score);
 }
 
