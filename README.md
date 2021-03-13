@@ -2,7 +2,8 @@
 
 Google Recaptcha V3 using Vanilla JavaScript
 
-  - Please ensure that your browser is allowing CORS before using the application (Anyone can help solve this issue by programatically adding the header)
+  - Please ensure that your browser is allowing CORS before using the application 
+  - Anyone can help solve this issue by programatically adding the header
   - **UserName**: *admin* & **Password**: *1234*
   - Used Axios(A promise based HTTP Client) to send post request to google server
   - Verified user based on scores sent back as response from the google server
