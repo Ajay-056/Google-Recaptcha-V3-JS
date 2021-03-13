@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login with Re-captcha V3</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css'
+        integrity='sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=='
+        crossorigin='anonymous' />
+    <link rel='stylesheet' href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <script defer
+        src="https://www.google.com/recaptcha/api.js?render=6LfUF3waAAAAAPKjsy3NC2h3jLrtb9SGaBHVw548"></script>
+    <script defer src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.9.1/axios.min.js'
+        integrity='sha512-Xk3wWei2TGrsh9kDSBKUMIjw/86sLUvhtnv9f7fOuIwhhiUTKz8szkWkzHthrM5Bb3Bu9idSzkxOrkzhcneuiw=='
+        crossorigin='anonymous'></script>
+    <script defer src="./index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form id="loginForm" name="loginForm" autocomplete="off" novalidate>
+            <h3>Sign In</h3>
+            <div class="form-group">
+                <input type="text" name="name" id="Username" required>
+                <label for="name">UserName</label>
+                <small></small>
+            </div>
+            <div class="form-group">
+                <input type="password" name="password" id="Password" required>
+                <label for="">Password</label>
+                <i class="fas fa-eye"></i>
+                <small></small>
+            </div>
+
+            <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
+
+            <input type="submit" value="Sign In" class="submitBtn">
+        </form>
+    </div>
+</body>
+
+</html>
