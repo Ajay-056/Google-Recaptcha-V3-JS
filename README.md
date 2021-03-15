@@ -1,6 +1,6 @@
 # Google-Recaptcha-V3-JS
 
-Google Recaptcha V3 using Vanilla JavaScript
+Google Recaptcha V3 using JavaScript
 
   - Please ensure that your browser is allowing CORS before using the application 
   - Anyone can help solve this issue by programatically adding the header
